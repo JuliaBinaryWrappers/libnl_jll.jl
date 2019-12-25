@@ -1,0 +1,10 @@
+name = "libnl_jll"
+uuid = "7c700954-19d3-5208-81e2-8fa5fe7c0bd8"
+version = "3.5.0+0"
+
+[deps]
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+
+[compat]
+julia = "1.0"
