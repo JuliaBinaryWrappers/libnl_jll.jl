@@ -1,81 +1,83 @@
 [[libnl]]
-arch = "armv7l"
-git-tree-sha1 = "704c16c6a986b0fd54b7e6c1842daa38255a0488"
+arch = "aarch64"
+git-tree-sha1 = "516b58695412ac4ec2fb1b62a6fe08a080b4f9e4"
 libc = "glibc"
 os = "linux"
 
     [[libnl.download]]
-    sha256 = "1da952df63f8461728a8375aef87d73aff6ffc323169ad7f1acbca17e8afcec8"
-    url = "https://github.com/JuliaBinaryWrappers/libnl_jll.jl/releases/download/libnl-v3.5.0+0/libnl.v3.5.0.arm-linux-gnueabihf.tar.gz"
-[[libnl]]
-arch = "x86_64"
-git-tree-sha1 = "be132f071862bb87a7c9e48dfd68c788f9b89377"
-libc = "glibc"
-os = "linux"
-
-    [[libnl.download]]
-    sha256 = "13bed873f65e0b625c382ed54d9ddecebc5b6242c9cd09627edb0fa324c65e13"
-    url = "https://github.com/JuliaBinaryWrappers/libnl_jll.jl/releases/download/libnl-v3.5.0+0/libnl.v3.5.0.x86_64-linux-gnu.tar.gz"
+    sha256 = "c8339e6aa9510765d11c58db93067df5b8092c3b57ff0b54c2d3147ac65dfcac"
+    url = "https://github.com/JuliaBinaryWrappers/libnl_jll.jl/releases/download/libnl-v3.5.0+1/libnl.v3.5.0.aarch64-linux-gnu.tar.gz"
 [[libnl]]
 arch = "aarch64"
-git-tree-sha1 = "eeb37404a6b9dbd68899141855b9d751e6c37948"
+git-tree-sha1 = "72e0558d05cce2259e968ece9851e4b19ecd7e95"
+libc = "musl"
+os = "linux"
+
+    [[libnl.download]]
+    sha256 = "cf6d16637f0c5564b00aa6ad9a6d29a05a9bf1510f6475ccfe90fb64196681af"
+    url = "https://github.com/JuliaBinaryWrappers/libnl_jll.jl/releases/download/libnl-v3.5.0+1/libnl.v3.5.0.aarch64-linux-musl.tar.gz"
+[[libnl]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "f592815be07b059a72b473687a8e3e31267b3791"
 libc = "glibc"
 os = "linux"
 
     [[libnl.download]]
-    sha256 = "9fa8e192bc0cc16e22998686ebc92fdc90639562e690c0da251f2fce34e7d785"
-    url = "https://github.com/JuliaBinaryWrappers/libnl_jll.jl/releases/download/libnl-v3.5.0+0/libnl.v3.5.0.aarch64-linux-gnu.tar.gz"
+    sha256 = "be7467687968113ab5194713b2afc96a19852759015ae2abf60a5c148fb4e3f8"
+    url = "https://github.com/JuliaBinaryWrappers/libnl_jll.jl/releases/download/libnl-v3.5.0+1/libnl.v3.5.0.armv7l-linux-gnueabihf.tar.gz"
+[[libnl]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "67b90aa9948e8fd6a434f25438b294a49aa321b0"
+libc = "musl"
+os = "linux"
+
+    [[libnl.download]]
+    sha256 = "4a27c34968932762ca144292817b3a77c659b6b4e5f90c6040bcfd70c3669d5b"
+    url = "https://github.com/JuliaBinaryWrappers/libnl_jll.jl/releases/download/libnl-v3.5.0+1/libnl.v3.5.0.armv7l-linux-musleabihf.tar.gz"
 [[libnl]]
 arch = "i686"
-git-tree-sha1 = "e02502919cbe3d955b1008d70f15f0433df3733a"
-libc = "musl"
+git-tree-sha1 = "82985fce463c9c46a943d7fefbb875e6d10f404f"
+libc = "glibc"
 os = "linux"
 
     [[libnl.download]]
-    sha256 = "46b0396c80f217ed45211f065f793d106d794eeab82d741cbdfa54c48c80242e"
-    url = "https://github.com/JuliaBinaryWrappers/libnl_jll.jl/releases/download/libnl-v3.5.0+0/libnl.v3.5.0.i686-linux-musl.tar.gz"
+    sha256 = "f6953e62f880a499c8af7566b2b983b9d046e6ee4e1f15d3a31f8de13022be33"
+    url = "https://github.com/JuliaBinaryWrappers/libnl_jll.jl/releases/download/libnl-v3.5.0+1/libnl.v3.5.0.i686-linux-gnu.tar.gz"
 [[libnl]]
-arch = "aarch64"
-git-tree-sha1 = "f16ef2d02cd7eeaf57406ee66540c6fba2609f61"
+arch = "i686"
+git-tree-sha1 = "9bc016b4661c72b2382686c7ac17cb8d5a8e80f0"
 libc = "musl"
 os = "linux"
 
     [[libnl.download]]
-    sha256 = "7d2c22afcf44b8c9651ae49f831b91215998b3bd4b5ead3348bd8b8ffecc90e5"
-    url = "https://github.com/JuliaBinaryWrappers/libnl_jll.jl/releases/download/libnl-v3.5.0+0/libnl.v3.5.0.aarch64-linux-musl.tar.gz"
+    sha256 = "29cb1166294ef4abb8da197fe5823d6952f0bf22df6f7141321aa7f222eb0e55"
+    url = "https://github.com/JuliaBinaryWrappers/libnl_jll.jl/releases/download/libnl-v3.5.0+1/libnl.v3.5.0.i686-linux-musl.tar.gz"
 [[libnl]]
 arch = "powerpc64le"
-git-tree-sha1 = "4ee7386ba59c518257cc2497c99a08646f34953f"
+git-tree-sha1 = "503962fb7f1354de75bed1636b6bf841db765b0c"
 libc = "glibc"
 os = "linux"
 
     [[libnl.download]]
-    sha256 = "ccc9e576116cd00bb34f3c3f2c30778f43568f67e34d82ff354da2b2dce3d0ad"
-    url = "https://github.com/JuliaBinaryWrappers/libnl_jll.jl/releases/download/libnl-v3.5.0+0/libnl.v3.5.0.powerpc64le-linux-gnu.tar.gz"
-[[libnl]]
-arch = "i686"
-git-tree-sha1 = "7464eae8e70d96a7608e8ef634e59a1bf5b8ea7d"
-libc = "glibc"
-os = "linux"
-
-    [[libnl.download]]
-    sha256 = "158740673b7ec730884b80430e35951c905a65f31638d5de1fc65e612308d2db"
-    url = "https://github.com/JuliaBinaryWrappers/libnl_jll.jl/releases/download/libnl-v3.5.0+0/libnl.v3.5.0.i686-linux-gnu.tar.gz"
+    sha256 = "e54bedd7415a07a13a749060de75b9066e8237dacd672664b8b606b40ca21faf"
+    url = "https://github.com/JuliaBinaryWrappers/libnl_jll.jl/releases/download/libnl-v3.5.0+1/libnl.v3.5.0.powerpc64le-linux-gnu.tar.gz"
 [[libnl]]
 arch = "x86_64"
-git-tree-sha1 = "2cb055995936bccefb5bbd0a71cda59533e857c0"
-libc = "musl"
+git-tree-sha1 = "dac6dfb429338a4046de9b05e9582a1e33e963a2"
+libc = "glibc"
 os = "linux"
 
     [[libnl.download]]
-    sha256 = "2f92785f046116adbb4899975fbfc2e8295344ce1fee56c40a8c0739c53645af"
-    url = "https://github.com/JuliaBinaryWrappers/libnl_jll.jl/releases/download/libnl-v3.5.0+0/libnl.v3.5.0.x86_64-linux-musl.tar.gz"
+    sha256 = "de9c5d08323e35dd38b4205fefc4b88198324c19b5d2bb119add1b50e6cec609"
+    url = "https://github.com/JuliaBinaryWrappers/libnl_jll.jl/releases/download/libnl-v3.5.0+1/libnl.v3.5.0.x86_64-linux-gnu.tar.gz"
 [[libnl]]
-arch = "armv7l"
-git-tree-sha1 = "1629a097461b35fb3e9e706e343f2d59fefc0a47"
+arch = "x86_64"
+git-tree-sha1 = "c14784ea3df7ba8d782f70a6ac9b6ade71bf2ec2"
 libc = "musl"
 os = "linux"
 
     [[libnl.download]]
-    sha256 = "97388ac6d39f4a745fcce429c842da89c09e2703598e4539f67dc64302d65de2"
-    url = "https://github.com/JuliaBinaryWrappers/libnl_jll.jl/releases/download/libnl-v3.5.0+0/libnl.v3.5.0.arm-linux-musleabihf.tar.gz"
+    sha256 = "988409749317b0b5ed62e561058cb1bbb719f8f7a86714ab41ed68bcddb087cc"
+    url = "https://github.com/JuliaBinaryWrappers/libnl_jll.jl/releases/download/libnl-v3.5.0+1/libnl.v3.5.0.x86_64-linux-musl.tar.gz"
